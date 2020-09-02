@@ -1,12 +1,12 @@
 export const environment = {
     production: false,
-    apiBaseUrl: "https://qbotdemotesting.azurewebsites.net/api/Request/",
-    selfUrl: "https://presales-bot-bot.azurewebsites.net",
+    apiBaseUrl: "https://presalesbot.azurewebsites.net/api/Request/",
+    selfUrl: "https://presalesbot-questions.azurewebsites.net",
 
     authConfig: {
-        instance: "https://presales-bot-bot.azurewebsites.net/api/Request/",
+        instance: "https://login.microsoftonline.com/",
         tenantId: "b39138ca-3cee-4b4a-a4d6-cd83d9dd62f0",
-        clientId: "b516f2c5-3004-412b-80b2-ebc399254195",
+        clientId: "22f82f6e-5e86-422d-be63-d1c09ce0a8d5",
         redirectUri: "/app-silent-end",
         cacheLocation: "localStorage",
         navigateToLoginRequestUrl: false,
